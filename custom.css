@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto";
+  font-family: "Overpass";
   background-color: #fafafa;
   color: #404040;
   font-size: 1.3em;
@@ -41,7 +41,7 @@ body a {
 }
 
 .top-title {
-  font-weight: 600;
+  font-weight: 800;
   display: inline;
 }
 
