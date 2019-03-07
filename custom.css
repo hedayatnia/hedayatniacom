@@ -120,6 +120,12 @@ body a {
   --dark-version: #b05448;
 }
 
+.email {
+  color: inherit !important;
+  --background-color: #dbdbdb;
+  --dark-version: #545454;
+}
+
 .spc:hover,
 .trustedfor:hover,
 .launchpad:hover,
@@ -127,7 +133,8 @@ body a {
 .default:hover,
 .solveriq:hover,
 .riceuniv:hover,
-.wildfire:hover {
+.wildfire:hover,
+.email:hover {
   background-color: var(--background-color);
   color: var(--dark-version) !important;
   transition: background-color 0.05s ease-in, color 0.05s ease-in;
