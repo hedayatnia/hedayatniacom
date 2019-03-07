@@ -1,0 +1,101 @@
+body {
+  font-family: "Roboto";
+  background-color: #fafafa;
+  color: #404040;
+  font-size: 1.5em;
+}
+
+body a {
+  color: #1181fb;
+}
+
+.centerdiv {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.top {
+  display: inline-block;
+  max-width: 700px;
+  margin: auto;
+  padding: 1.5em;
+}
+
+.top-heading,
+.currentwork,
+.sidework,
+.top-title {
+  margin-bottom: 1em;
+}
+
+.top-title {
+  font-weight: 600;
+}
+
+.company-logo {
+  width: 1.2em;
+  height: 1.2em;
+}
+
+.company-name {
+  text-decoration: underline;
+  display: inline-block;
+  font-weight: 500;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-right: -5px;
+}
+
+.company-name > a:hover {
+  color: unset;
+}
+
+.company-name > img {
+  margin-right: 2px;
+}
+
+.work-item {
+  display: inline;
+}
+
+.spc {
+  color: #daa563 !important;
+  --background-color: #f6e9d8;
+  --dark-version: #a47c4a;
+}
+
+.trustedfor {
+  color: #1181fb !important;
+  --background-color: #c4e0fe;
+  --dark-version: #0d61bc;
+}
+
+.launchpad {
+  color: #a0051d !important;
+  --background-color: #e7c1c7;
+  --dark-version: #780416;
+}
+
+.gwf {
+  color: #b69d00 !important;
+  --background-color: #ede7bf;
+  --dark-version: #897600;
+}
+
+.default {
+  color: #1181fb !important;
+  --background-color: #c4e0fe;
+  --dark-version: #0d61bc;
+}
+
+.spc:hover,
+.trustedfor:hover,
+.launchpad:hover,
+.gwf:hover,
+.default:hover {
+  background-color: var(--background-color);
+  color: var(--dark-version) !important;
+  transition: background-color 0.05s ease-in, color 0.05s ease-in;
+}
