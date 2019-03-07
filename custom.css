@@ -2,7 +2,9 @@ body {
   font-family: "Roboto";
   background-color: #fafafa;
   color: #404040;
-  font-size: 1.5em;
+  font-size: 1.3em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body a {
@@ -15,6 +17,10 @@ body a {
   height: 100vh;
 }
 
+.connectwithme {
+  display: none;
+}
+
 .top {
   display: inline-block;
   max-width: 700px;
@@ -25,12 +31,18 @@ body a {
 .top-heading,
 .currentwork,
 .sidework,
-.top-title {
-  margin-bottom: 1em;
+.top-title,
+.oldwork {
+  margin-top: 1em;
+}
+
+.top-heading {
+  display: inline;
 }
 
 .top-title {
   font-weight: 600;
+  display: inline;
 }
 
 .company-logo {
@@ -90,11 +102,32 @@ body a {
   --dark-version: #0d61bc;
 }
 
+.solveriq {
+  color: #7e70dc !important;
+  --background-color: #dfdbf6;
+  --dark-version: #5f54a5;
+}
+
+.riceuniv {
+  color: #183f7c !important;
+  --background-color: #c5cfde;
+  --dark-version: #122f5d;
+}
+
+.wildfire {
+  color: #eb7060 !important;
+  --background-color: #fadbd7;
+  --dark-version: #b05448;
+}
+
 .spc:hover,
 .trustedfor:hover,
 .launchpad:hover,
 .gwf:hover,
-.default:hover {
+.default:hover,
+.solveriq:hover,
+.riceuniv:hover,
+.wildfire:hover {
   background-color: var(--background-color);
   color: var(--dark-version) !important;
   transition: background-color 0.05s ease-in, color 0.05s ease-in;
