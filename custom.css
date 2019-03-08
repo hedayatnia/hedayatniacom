@@ -17,6 +17,10 @@ body a {
   height: 100vh;
 }
 
+.aligntopdiv {
+  display: flex;
+}
+
 .connectwithme {
   display: none;
 }
