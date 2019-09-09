@@ -143,3 +143,14 @@ body a {
   color: var(--dark-version) !important;
   transition: background-color 0.05s ease-in, color 0.05s ease-in;
 }
+
+.top-title.notif {
+    display: block;
+    background-color: #019980;
+    padding: 9px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 1em;
+}
