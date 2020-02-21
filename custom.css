@@ -1,8 +1,14 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
 body {
-  font-family: "Overpass";
-  background-color: #fafafa;
+  font-family: "Inter";
+  background-color: #fff;
   color: #404040;
-  font-size: 1.3em;
+  font-size: 1em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -27,7 +33,7 @@ body a {
 
 .top {
   display: inline-block;
-  max-width: 700px;
+  max-width: 675px;
   margin: auto;
   padding: 1.5em;
 }
@@ -45,8 +51,12 @@ body a {
 }
 
 .top-title {
-  font-weight: 800;
-  display: inline;
+  font-weight: 600;
+  display: block;
+}
+
+b{
+  font-weight: 600;
 }
 
 .company-logo {
@@ -73,7 +83,8 @@ body a {
 }
 
 .work-item {
-  display: inline;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .spc {
@@ -98,6 +109,12 @@ body a {
   color: #b69d00 !important;
   --background-color: #ede7bf;
   --dark-version: #897600;
+}
+
+.neighborly {
+  color: #019980 !important;
+  --background-color: #BFF3E5;
+  --dark-version: #019980;
 }
 
 .default {
@@ -138,6 +155,7 @@ body a {
 .solveriq:hover,
 .riceuniv:hover,
 .wildfire:hover,
+.neighborly:hover,
 .email:hover {
   background-color: var(--background-color);
   color: var(--dark-version) !important;
@@ -153,4 +171,69 @@ body a {
     font-weight: 400;
     margin-top: 0px;
     margin-bottom: 1em;
+}
+
+.currentthing{
+  padding: 16px 16px;
+  box-shadow: inset 0 0 0 2px #774ee0;
+  background-color: rgba(119,78,224,.06);
+  border-radius: 6px;
+  color: #3d4045;
+}
+
+.currentthing > a{
+  color: #774ee0;
+  text-decoration: none;
+  text-underline-position: below;
+  display: block;
+  font-weight: 600;
+  margin-top: 8px;}
+
+.work-heading{
+  padding-right: 8px;
+  margin-top: 16px;
+    padding-left: 8px;
+  margin-bottom: 8px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+/* Tooltip container */
+.tooltip {
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.current-recent{
+    margin-top: 8px;
+  display: block;
+}
+
+.current-recent > a{
+  text-decoration: underline;
+  color: #585191;
+}
+
+.section{
+  margin-top: 16px !important;
+  display: inline-block;
 }
