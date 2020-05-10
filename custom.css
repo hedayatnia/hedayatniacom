@@ -200,12 +200,13 @@ b{
 }
 
 .work-heading{
-  padding-right: 8px;
+  padding-right: 0px;
   margin-top: 16px;
-    padding-left: 8px;
+    padding-left: 0px;
   margin-bottom: 8px;
     border-radius: 4px;
-    color: #fff;
+    color: #774ee0;
+  background-color: transparent !important;
 }
 
 .current-recent{
