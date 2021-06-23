@@ -115,15 +115,20 @@
     <div class="centerdiv">
       <div class="top">
         <br />
-        <div class="section" style="margin-bottom: 0px;width: 100%">
+        <div class="section" style="margin-bottom: -10px;width: 100%">
           <img
-            src="https://cdn.glitch.com/7585befe-b6aa-41c3-b372-a258a02488a8%2FIMG_0297.JPG?v=1624483012564"
-            height="180px"
-            style="border-radius: 0px;float:left;margin-right: 20px;"
+            src="https://cdn.glitch.com/7585befe-b6aa-41c3-b372-a258a02488a8%2Fphil-illust.jpeg?v=1593466337664"
+            height="150px"
+            style="border-radius: 9999px;float:left;margin-right: 30px;"
           />
-          <div class="top-title appleg" style="margin-top:48px">Phil Hedayatnia</div>
+          <div class="top-title appleg">Phil Hedayatnia</div>
           <div class="top-heading">
-            Product designer with a knack for taking new things from napkin sketches to escape velocity.
+            I'm a product designer living in 🗽NYC, 🌉SF, <br />
+            <a
+              style="text-decoration:underline"
+              href="https://nomadlist.com/@hedayatnia"
+              >and elsewhere</a
+            >.
           </div>
           <div class="current-recent" style="margin-bottom: 36px">
             <a href="https://twitter.com/philhedayatnia">Twitter</a>&nbsp;
@@ -148,8 +153,8 @@
                 project →</a
               >
             </div>
-            
-            <div class="currentthing" style="display:none;">
+            <br />
+            <div class="currentthing">
               I currently work with social impact companies and early stage
               startups on product design as a design partner at
               <div style="display:inline;">
@@ -183,11 +188,11 @@
         </div>
         <div class="section">
           <div class="currentwork">
-            <div class="work-heading" style="background-color:#7692DD">
+            <div class="work-heading" style="background-color:#774ee0">
               <b>Current</b>
             </div>
             <div class="work-item">
-              I'm a founder and partner at
+              I'm a design partner at
               <a class="company-name trustedfor" href="https://airfoil.studio/">
                 <img
                   src="https://cdn.glitch.com/7585befe-b6aa-41c3-b372-a258a02488a8%2F0%20(2).jpeg?v=1584560500305"
@@ -195,28 +200,24 @@
                   style="border-radius: 3px;margin-right:5px;margin-bottom: 1px;"
                 />Airfoil
               </a>
-              , a design and product studio based in New York that works with early-stage founders to design their ideas. We also launch products on our own, including <a href="https://modufellowship.com/">Modu Fellowship</a>, a program to help rising designers grow their skills and join emerging ventures, <a href="https://onmira.app">Mira</a>, a newsletter reader and that helps readers find new content and creators monetize and scale their audiences, <a href="https://cheque.finance">Cheque</a>, the first billing and invoice management tool designed for crypto-native companies, and many more. 
-              <br /><br />We're hiring! If you're a product designer or engineer interested in any of our products or our agency work, please <a href="mailto:phil+hiring@airfoil.studio">email me</a>.
-            </div>
-        </div>
-        <div class="section">
-          <div class="oldwork">
-            <div class="work-heading" style="background-color:#774ee0">
-              <b>Previous</b>
+              , a tactical design and growth studio based in San Francisco and
+              Seoul focused on helping early stage startups reach hypergrowth.
             </div>
             <div class="work-item">
-              I was a design lead at
+              I'm a Senior Product Designer at
               <a class="company-name launchpad" href="https://monday.vc/">
                 <img
                   src="https://cdn.glitch.com/7585befe-b6aa-41c3-b372-a258a02488a8%2F0.png?v=1589152282831"
                   class="company-logo"
                   style="border-radius: 3px;margin-right:5px;margin-bottom: 1px;"
                 />Monday.vc </a
-              >, where I designed our Talent Network product connecting
+              >, where I design our Talent Network product connecting
               job-seekers with opportunities across networks.
             </div>
             <div class="work-item">
-              I started
+              Along with
+              <a href="https://twitter.com/_patriciamou?lang=en">Patricia Mou</a
+              >, I run
               <a
                 class="company-name trustedfor"
                 href="https://newsletterstack.com/"
@@ -246,6 +247,12 @@
               ambitious students seeking to build new ventures.
             </div>
           </div>
+        </div>
+        <div class="section">
+          <div class="oldwork">
+            <div class="work-heading" style="background-color:#774ee0">
+              <b>Previous</b>
+            </div>
             <div class="work-item">
               I was a member at
               <a
@@ -260,7 +267,7 @@
               society.
             </div>
             <div class="work-item">
-              I led
+              I helped start
               <a
                 class="company-name neighborly"
                 href="https://www.nytimes.com/2015/07/12/business/mutfund/putting-the-public-back-in-public-finance.html"
@@ -270,7 +277,7 @@
                   class="company-logo"
                 />Neighborly
               </a>
-              's Networks team, launching projects across the US to help
+              's Networks division, launching projects across the US to help
               rural and underserved communities attain open, free community
               broadband.
             </div>
@@ -323,7 +330,7 @@
             <div class="work-item">
               Once upon a time, I grew up in Cleveland, Ohio, and learned about
               tech through the generosity of my hometown's startup community.
-              I'm in New York now, but I'm still working on ventures that
+              I'm in San Francisco now, but I'm still working on ventures that
               affect my friends back home: increasing economic opportunity,
               closing the digital divide, and improving access to quality
               education.
